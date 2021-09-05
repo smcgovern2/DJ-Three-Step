@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Do some thinking</title>
+    <link rel="stylesheet" th:href="@{/bootstrap.min.css}">
+    <link rel="stylesheet" th:href="@{/bootstrap-grid.min.css}">
+    <link rel="stylesheet" th:href="@{/bootstrap-reboot.min.css}">
+    <link rel="stylesheet" th:href="@{/site.css}">
+
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+
+<div class="container body-content">
+
+    <img class="rounded mx-auto d-block my-2" th:src="@{/img/step1.png}" height="300" width="300"/>
+
+    <div class="font-md text-center"><h2>Good ideas must be thought of. If you don't think of an idea how can you make an idea?</h2>
+    </div>
+    <div class="font-md text-center"><h3><a href="/steptwo">Click here for second step</a></h3></div>
+
+
+
+</div>
+<div th:insert="fragments/_footer :: footer"></div>
+</body>
+</html>
